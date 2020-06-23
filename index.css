@@ -1,5 +1,5 @@
 body{
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
     width: 1200px;
     margin: auto;
 }
@@ -16,7 +16,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 35px 0 0 90px; 
+    margin-top: 35px; 
 
 }
 
@@ -29,17 +29,17 @@ body{
     position: relative;
     display: block;
     color: #39364A; 
-    padding: 5px 0;
+    padding: 4px 5px;
 }
 
 
 .menu li a:hover{
-    border-bottom: 2px solid#39364A;
+    border-bottom: 1.5px solid#39364A;
     text-decoration: none;
 }
 
 .menu li a.active{
-    border-bottom: 2px solid#39364A;
+    border-bottom: 2.5px solid#39364A;
     font-weight: 800;
 } 
 
@@ -54,3 +54,100 @@ body{
     height: 35px;
     margin: 35px 10px 0 0; 
 }
+
+.main{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px; 
+    justify-content: space-around;
+}
+
+.main_photo{
+    position: relative;
+    width: 560px;
+    margin-top: -10px; 
+}
+
+.image_main{
+    position: absolute;
+    width: 450px;
+    left: 100px;
+    top: 15px;
+}
+
+.circle{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(40deg, #E9917D 0%, rgba(243, 161, 114, 0.041) 90% ); 
+    border-radius: 300px;
+    left: 80px;
+    top: 5px;
+}
+
+.about{
+    width: 490px;
+    color: #39364A;
+    margin-left: 50px;
+}
+
+.about h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.about h3{
+    font-size: 30px;
+    font-weight: 800;
+    color: #F3A272;
+}
+
+.about p{
+    font-size: 17px;
+    margin-top: 35px;
+}
+
+.about p span{
+    font-weight: 700;
+}
+
+.academy{
+    position: relative;
+    width: 400px;
+    padding-left: 30px;
+    margin: 30px 0;
+    font-size: 17px;
+}
+
+.academy li{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.point{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(90deg, #E9917D 0%, #F3A272 100%);
+    border-radius: 10px;
+    left: 5px;
+}
+
+.button{
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(90deg, #F18B74 0%, #F7AE83 100%);
+    box-shadow: 0px 0px 20px rgba(98, 56, 41, 0.2);
+    border-radius: 30px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+}
+
+.button:hover{
+    background: linear-gradient(90deg, rgb(235, 114, 87) 0%, rgb(238, 142, 87) 100%);
+}
+
