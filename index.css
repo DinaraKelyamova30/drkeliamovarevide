@@ -31,18 +31,18 @@ body{
 .menu li a{
     position: relative;
     display: block;
-    color: #39364A; 
+    color: rgb(57, 54, 74); 
     padding: 4px 5px;
 }
 
 
 .menu li a:hover{
-    border-bottom: 1.5px solid#39364A;
+    border-bottom: 1.5px solid rgb(57, 54, 74);
     text-decoration: none;
 }
 
 .menu li a.active{
-    border-bottom: 2.5px solid#39364A;
+    border-bottom: 2.5px solid rgb(57, 54, 74);
     font-weight: 800;
 } 
 
@@ -84,7 +84,7 @@ body{
     position: absolute;
     width: 500px;
     height: 500px;
-    background: linear-gradient(40deg, #E9917D 0%, rgba(243, 161, 114, 0.041) 90% ); 
+    background: linear-gradient(40deg, rgb(233, 145, 125), rgba(243, 161, 114, 0.041)); 
     border-radius: 300px;
     left: 80px;
     top: 5px;
@@ -92,7 +92,7 @@ body{
 
 .about{
     width: 490px;
-    color: #39364A;
+    color: rgb(57, 54, 74);
 }
 
 .about h1{
@@ -103,7 +103,7 @@ body{
 .about h3{
     font-size: 26px;
     font-weight: 800;
-    color: #F3A272;
+    color: rgb(243, 162, 114);
 }
 
 .about p{
@@ -132,7 +132,7 @@ body{
     position: absolute;
     width: 15px;
     height: 15px;
-    background: linear-gradient(90deg, #E9917D 0%, #F3A272 100%);
+    background: linear-gradient(90deg, rgb(233, 145, 125), rgb(243, 162, 114));
     border-radius: 10px;
     left: 5px;
 }
@@ -140,7 +140,7 @@ body{
 .button{
     width: 250px;
     height: 50px;
-    background: linear-gradient(90deg, #F18B74 0%, #F7AE83 100%);
+    background: linear-gradient(90deg, rgb(241, 139, 116), rgb(247, 174, 131));
     box-shadow: 0px 0px 20px rgba(98, 56, 41, 0.2);
     border-radius: 30px;
     border: 0;
@@ -168,7 +168,7 @@ body{
 }
 .procedures h1{
     font-size: 30px;
-    color: #F3A272;
+    color: rgb(243, 162, 114);
     font-weight: 800;
 }
 
@@ -212,7 +212,7 @@ body{
     position: absolute;
     width: 300px;
     height: 60px;
-    background: linear-gradient(180deg, rgba(57, 54, 74, 0.08) -60%, #39364A 100%);
+    background: linear-gradient(180deg, rgba(57, 54, 74, 0.08), rgb(57, 54, 74) );
     border-radius: 25px;
     top: 190px;
 }
@@ -220,7 +220,7 @@ body{
 .name p{
     text-align: center;
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 800;
     margin-top: 15px;
     letter-spacing: 1px;
