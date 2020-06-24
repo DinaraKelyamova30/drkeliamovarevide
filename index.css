@@ -64,7 +64,7 @@ body{
     margin: auto;
     display: flex;
     flex-direction: row;
-    padding-top: 120px; 
+    padding-top: 150px; 
     justify-content: space-around;
 }
 
@@ -76,19 +76,19 @@ body{
 
 .image_main{
     position: absolute;
-    width: 450px;
-    left: 100px;
-    top: 15px;
+    width: 430px;
+    left: 115px;
+    top: 47px;
 }
 
 .circle{
     position: absolute;
-    width: 500px;
-    height: 500px;
-    background: linear-gradient(45deg, rgb(233, 145, 125) 0%, rgba(243, 161, 114, 0.178) 100%); 
+    width: 480px;
+    height: 480px;
+    background: linear-gradient(0deg, rgb(233, 145, 125) 0%, rgba(243, 161, 114, 0) 100%); 
     border-radius: 300px;
-    left: 80px;
-    top: 5px;
+    left: 100px;
+    top: 35px;
 }
 
 .about{
@@ -99,12 +99,14 @@ body{
 .about h1{
     font-size: 50px;
     font-weight: 800;
+    margin-bottom: 0;
 }
 
 .about h3{
     font-size: 26px;
     font-weight: 800;
     color: rgb(243, 162, 114);
+    margin-top: 5px;
 }
 
 .about p{
